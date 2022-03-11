@@ -13,4 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'MovieController@index')->name('home');
+//chiamo la funzione index nel controller Movie che fa il vardump di Movies
+Route::get('/', 'MovieController@index') -> name('home');
