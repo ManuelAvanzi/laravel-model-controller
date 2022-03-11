@@ -11,6 +11,7 @@ class MovieController extends Controller
         $data=Movie:: all();
         
         dump($data);
+        //passing data to home 
         return view('home', compact("data"));
     }
 }
