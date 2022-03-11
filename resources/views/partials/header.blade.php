@@ -7,6 +7,7 @@
 <div class="cards-container">
 
 @foreach($data as $movie)
+
         <div class="card">
 
             <h2>Title: {{ $movie->title}}</h2>
