@@ -7,10 +7,10 @@ use Illuminate\Http\Request;
 class MovieController extends Controller
 {
     public function index(){
+        //SELECT * FROM MOVIE
         $data=Movie:: all();
         
         dump($data);
-
-        return view('home');
+        return view('home', compact("data"));
     }
 }
