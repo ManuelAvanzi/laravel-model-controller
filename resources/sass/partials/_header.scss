@@ -1,33 +1,15 @@
-header{
-    
-    .header-container{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+.cards-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgba(190, 188, 22, 0.253);
+
+    .card{
+        margin:20px;
+        width: 210px;
+        padding:10px;
+        border:2px solid black;
         
-        .logo{
-            margin: 13px 10px;
-        }
-        
-        .navbar{
-            
-            ul{
-                display: flex;
-                
-                li {
-                    color: #484646;
-                    padding: 12px;
-                    list-style: none;
-                    text-transform: uppercase;
-                    font-weight: bold;
-                    cursor: pointer;
-                    
-                    &:hover{
-                        color:#1e86ed;
-                        border-bottom:2px solid #1e86ed;
-                    }
-                }
-            }
-        }
     }
 }

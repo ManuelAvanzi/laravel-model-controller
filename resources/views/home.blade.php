@@ -4,18 +4,6 @@
  Laravel Movies
 @endsection
 
-@section('content')
-
-<main>
-    <div class="cards-container">
-
-    <h2>qui andrà il fim</h2>
-            
-       
+@section('main')
+    @include('partials.main')
 @endsection
-
-    </div>
-
-
-</main>
- 
